@@ -8,7 +8,7 @@
 
 **[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
-## Status test 
+## Status test 2
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
