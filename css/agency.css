@@ -33,6 +33,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: #151b4e;
 }
 
 .hr-red {
@@ -271,7 +272,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(215, 0, 53, 0.9);
+  background: rgba(215, 0, 53, 0.5);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -309,6 +310,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
+  font-size: 1.4rem;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -590,7 +592,7 @@ header.masthead .intro-text .intro-heading {
   }
 }
 .enrollment {
-  background-image: linear-gradient(to right,rgba(34, 0, 8, .93), rgba(34, 0, 8, .9), rgba(66, 0, 17, 0.93), rgba(21, 27, 78, 0.82)), url("../img/flag-bg.png");
+  background-image: linear-gradient(to right,rgba(34, 0, 8, .93), rgba(34, 0, 8, .9), rgba(66, 0, 17, 0.93), rgba(21, 27, 78, 0.82)), url("../img/flag-bg2.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
