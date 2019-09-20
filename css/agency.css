@@ -119,8 +119,8 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #151b4e;
-  border-color: #151b4e;
+  background-color: #D50037;
+  border: none;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -202,7 +202,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: linear-gradient(to right,rgba(107, 0, 0, 0.8), rgba(21, 27, 78, 0.9)), url("../img/header-bg3.jpg");
+  background-image: linear-gradient(to right,rgba(107, 0, 0, 0.8), rgba(21, 27, 78, 0.9)), url("../img/header-bg2.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -276,7 +276,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(255, 201, 4, .8);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
