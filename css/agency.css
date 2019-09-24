@@ -203,10 +203,22 @@ header.masthead {
   text-align: center;
   color: white;
   background-image: linear-gradient(to right,rgba(107, 0, 0, 0.8), rgba(21, 27, 78, 0.9)), url("../img/header-bg2.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  header.masthead {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to right,rgba(107, 0, 0, 0.8), rgba(21, 27, 78, 0.9)), url("../img/header-bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
 }
 
 header.masthead .intro-text {
@@ -598,10 +610,20 @@ header.masthead .intro-text .intro-heading {
 }
 .enrollment {
   background-image: linear-gradient(to right,rgba(34, 0, 8, .93), rgba(34, 0, 8, .9), rgba(66, 0, 17, 0.93), rgba(21, 27, 78, 0.82)), url("../img/flag-bg2.png");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .enrollment {
+    background-image: linear-gradient(to right,rgba(34, 0, 8, .93), rgba(34, 0, 8, .9), rgba(66, 0, 17, 0.93), rgba(21, 27, 78, 0.82)), url("../img/flag-bg2.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
 }
 
   .team-member {
