@@ -53,6 +53,10 @@ h6 {
   color: white;
 }
 
+.bg-blue .text-muted{
+  color: rgba(182, 182, 182, 0.767) !important;
+}
+
 .page-section {
   padding: 100px 0;
 }
