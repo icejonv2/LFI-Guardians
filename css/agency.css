@@ -620,6 +620,11 @@ header.masthead .intro-text .intro-heading {
   background-size: cover;
 }
 
+.enrollment .intro-heading{
+  font-weight: 700;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
 @media (max-width: 768px) {
   .enrollment {
     background-image: linear-gradient(to right,rgba(34, 0, 8, .93), rgba(34, 0, 8, .9), rgba(66, 0, 17, 0.93), rgba(21, 27, 78, 0.82)), url("../img/flag-bg2.png");
